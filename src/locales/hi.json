@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "aiAssistant": "AI सहायक",
+    "schemes": "योजनाएं",
+    "familyWelfare": "परिवार कल्याण",
+    "missedOpportunities": "चूके अवसर",
+    "notifications": "सूचनाएं",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स"
+  },
+  "sidebar": {
+    "tagline": "आपका AI कल्याण ट्विन",
+    "matchScore": "AI मैच स्कोर",
+    "matchDescription": "आपकी प्रोफ़ाइल से मिलान योजनाएं"
+  },
+  "topbar": {
+    "search": "योजनाएं खोजें...",
+    "notifications": "सूचनाएं",
+    "profile": "प्रोफ़ाइल",
+    "theme": "थीम"
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है",
+    "welcomeMessage": "आपका AI कल्याण ट्विन आपके लिए सक्रिय रूप से योजनाओं की निगरानी कर रहा है",
+    "aiMatchScore": "AI मैच स्कोर",
+    "aiMatchDescription": "व्यक्तिगत पात्रता स्कोर",
+    "totalBenefits": "कुल लाभ",
+    "totalBenefitsDescription": "अनलॉक किया गया संभावित मूल्य",
+    "eligibleSchemes": "पात्र योजनाएं",
+    "eligibleSchemesDescription": "जिन योजनाओं के लिए आप योग्य हैं",
+    "appliedSchemes": "आवेदित योजनाएं",
+    "appliedSchemesDescription": "सबमिट किए गए आवेदन",
+    "pendingApplications": "लंबित आवेदन",
+    "pendingApplicationsDescription": "स्वीकृति की प्रतीक्षा में",
+    "recentNotifications": "हाल की सूचनाएं",
+    "recentNotificationsDescription": "नवीनतम अलर्ट",
+    "viewAll": "सभी देखें",
+    "aiRecommendations": "AI अनुशंसाएं",
+    "aiRecommendationsDescription": "आपकी प्रोफ़ाइल के लिए विशेष रूप से रैंक की गई योजनाएं",
+    "trendingSchemes": "ट्रेंडिंग योजनाएं",
+    "trendingSchemesDescription": "इस सप्ताह की लोकप्रिय योजनाएं",
+    "deadlineAlerts": "समय सीमा अलर्ट",
+    "deadlineAlertsDescription": "आगामी आवेदन समय सीमा",
+    "recentlyViewed": "हाल ही में देखे गए",
+    "recentlyViewedDescription": "आपकी ब्राउज़िंग इतिहास",
+    "daysLeft": "दिन शेष",
+    "hoursAgo": "घंटे पहले",
+    "liveScanning": "लाइव स्कैनिंग",
+    "aiVerified": "AI सत्यापित",
+    "match": "मैच",
+    "apply": "आवेदन करें",
+    "viewDetails": "विवरण देखें",
+    "expiresSoon": "जल्द समाप्त होगा",
+    "urgent": "आवश्यक",
+    "active": "सक्रिय",
+    "approved": "स्वीकृत",
+    "newSchemesDiscovered": "नई योजनाएं आज खोजी गईं"
+  },
+  "common": {
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "sort": "क्रमबद्ध",
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हो गया",
+    "retry": "पुन: प्रयास करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "close": "बंद करें",
+    "confirm": "पुष्टि करें",
+    "success": "सफल",
+    "warning": "चेतावनी",
+    "info": "जानकारी"
+  },
+  "theme": {
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम"
+  },
+  "language": {
+    "english": "अंग्रेज़ी",
+    "hindi": "हिन्दी"
+  }
+}

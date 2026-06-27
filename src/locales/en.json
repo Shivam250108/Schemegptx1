@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "aiAssistant": "AI Assistant",
+    "schemes": "Schemes",
+    "familyWelfare": "Family Welfare",
+    "missedOpportunities": "Missed Opportunities",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "sidebar": {
+    "tagline": "Your AI Welfare Twin",
+    "matchScore": "AI Match Score",
+    "matchDescription": "Schemes matched to your profile"
+  },
+  "topbar": {
+    "search": "Search schemes...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "theme": "Theme"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "welcomeMessage": "Your AI Welfare Twin is actively monitoring schemes for you",
+    "aiMatchScore": "AI Match Score",
+    "aiMatchDescription": "Personalized eligibility score",
+    "totalBenefits": "Total Benefits",
+    "totalBenefitsDescription": "Potential value unlocked",
+    "eligibleSchemes": "Eligible Schemes",
+    "eligibleSchemesDescription": "Schemes you qualify for",
+    "appliedSchemes": "Applied Schemes",
+    "appliedSchemesDescription": "Applications submitted",
+    "pendingApplications": "Pending Applications",
+    "pendingApplicationsDescription": "Awaiting approval",
+    "recentNotifications": "Recent Notifications",
+    "recentNotificationsDescription": "Latest alerts",
+    "viewAll": "View All",
+    "aiRecommendations": "AI Recommendations",
+    "aiRecommendationsDescription": "Schemes ranked specifically for your profile",
+    "trendingSchemes": "Trending Schemes",
+    "trendingSchemesDescription": "Popular schemes this week",
+    "deadlineAlerts": "Deadline Alerts",
+    "deadlineAlertsDescription": "Upcoming application deadlines",
+    "recentlyViewed": "Recently Viewed",
+    "recentlyViewedDescription": "Your browsing history",
+    "daysLeft": "days left",
+    "hoursAgo": "hours ago",
+    "liveScanning": "Live Scanning",
+    "aiVerified": "AI Verified",
+    "match": "Match",
+    "apply": "Apply",
+    "viewDetails": "View Details",
+    "expiresSoon": "Expires Soon",
+    "urgent": "Urgent",
+    "active": "Active",
+    "approved": "Approved",
+    "newSchemesDiscovered": "new schemes discovered today"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "confirm": "Confirm",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "english": "English",
+    "hindi": "Hindi"
+  }
+}
