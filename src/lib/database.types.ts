@@ -252,6 +252,49 @@ export interface Database {
           pending_applications?: number;
         };
       };
+      conversations: {
+        Row: {
+          id: string;
+          user_id: string;
+          title: string;
+          pinned: boolean;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          title?: string;
+          pinned?: boolean;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          title?: string;
+          pinned?: boolean;
+        };
+      };
+      messages: {
+        Row: {
+          id: string;
+          conversation_id: string;
+          role: 'user' | 'assistant' | 'system';
+          content: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          conversation_id: string;
+          role: 'user' | 'assistant' | 'system';
+          content: string;
+        };
+        Update: {
+          id?: string;
+          conversation_id?: string;
+          role?: 'user' | 'assistant' | 'system';
+          content?: string;
+        };
+      };
     };
   };
 }
@@ -261,3 +304,5 @@ export type SuccessStory = Database['public']['Tables']['success_stories']['Row'
 export type UserScheme = Database['public']['Tables']['user_schemes']['Row'];
 export type Notification = Database['public']['Tables']['notifications']['Row'];
 export type Profile = Database['public']['Tables']['profiles']['Row'];
+export type Conversation = Database['public']['Tables']['conversations']['Row'];
+export type Message = Database['public']['Tables']['messages']['Row'];

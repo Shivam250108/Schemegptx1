@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import { DashboardPage } from './pages/DashboardPage';
+import { AIAssistantPage } from './pages/AIAssistantPage';
 
 function LoadingFallback() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Suspense fallback={<LoadingFallback />}>
           <Routes>
             <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/assistant" element={<AIAssistantPage />} />
+            <Route path="/assistant/:id" element={<AIAssistantPage />} />
             <Route path="/" element={<DashboardPage />} />
           </Routes>
         </Suspense>
