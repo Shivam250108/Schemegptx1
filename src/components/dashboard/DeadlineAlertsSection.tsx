@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { AlertTriangle, Clock, ArrowUpRight, Calendar } from 'lucide-react';
+import { TriangleAlert as AlertTriangle, Clock, ArrowUpRight, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Scheme } from '../../lib/database.types';
 import { getDeadlineAlerts } from '../../services/scheme.service';

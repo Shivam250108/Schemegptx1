@@ -1,15 +1,5 @@
 import { motion } from 'framer-motion';
-import {
-  LayoutDashboard,
-  Bot,
-  FileText,
-  Users,
-  AlertTriangle,
-  Bell,
-  User,
-  Settings,
-  Sparkles,
-} from 'lucide-react';
+import { LayoutDashboard, Bot, FileText, Users, TriangleAlert as AlertTriangle, Bell, User, Settings, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '../ui/utils';

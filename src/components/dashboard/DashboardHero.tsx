@@ -1,14 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import {
-  Sparkles,
-  IndianRupee,
-  FileText,
-  CheckCircle,
-  Clock,
-  Bell,
-  TrendingUp,
-} from 'lucide-react';
+import { Sparkles, IndianRupee, FileText, CircleCheck as CheckCircle, Clock, Bell, TrendingUp } from 'lucide-react';
 import { cn } from '../ui/utils';
 
 interface HeroStats {
