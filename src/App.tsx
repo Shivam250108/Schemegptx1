@@ -4,6 +4,8 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import { DashboardPage } from './pages/DashboardPage';
 import { AIAssistantPage } from './pages/AIAssistantPage';
+import { FamilyWelfarePage } from './pages/FamilyWelfarePage';
+import { MissedOpportunitiesPage } from './pages/MissedOpportunitiesPage';
 
 function LoadingFallback() {
   return (
@@ -25,6 +27,8 @@ function App() {
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/assistant" element={<AIAssistantPage />} />
             <Route path="/assistant/:id" element={<AIAssistantPage />} />
+            <Route path="/family" element={<FamilyWelfarePage />} />
+            <Route path="/missed" element={<MissedOpportunitiesPage />} />
             <Route path="/" element={<DashboardPage />} />
           </Routes>
         </Suspense>

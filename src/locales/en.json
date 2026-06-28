@@ -123,6 +123,118 @@
     "errorNoSchemes": "No schemes found for your query.",
     "errorUnauthorized": "I can only help with government welfare schemes, scholarships, and related topics."
   },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "english": "English",
+    "hindi": "Hindi"
+  },
+  "family": {
+    "title": "Family Welfare",
+    "subtitle": "Manage your family members and track combined eligibility",
+    "addMember": "Add Member",
+    "editMember": "Edit Family Member",
+    "addFirstMember": "Add First Member",
+    "noMembers": "No Family Members Added",
+    "noMembersDescription": "Add your family members to discover eligible schemes and benefits",
+    "confirmDelete": "Are you sure you want to remove this family member?",
+    "years": "years",
+    "perYear": "per year",
+    "basicInfo": "Basic Information",
+    "financialInfo": "Financial & Education",
+    "locationInfo": "Location & Category",
+    "combinedEligibility": "Combined Family Eligibility",
+    "combinedEligibilityDescription": "Your family qualifies for schemes in these categories",
+    "fields": {
+      "name": "Full Name",
+      "relation": "Relation",
+      "age": "Age",
+      "gender": "Gender",
+      "occupation": "Occupation",
+      "annualIncome": "Annual Income",
+      "education": "Education",
+      "state": "State",
+      "district": "District",
+      "caste": "Caste Category"
+    },
+    "genders": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "relations": {
+      "father": "Father",
+      "mother": "Mother",
+      "wife": "Wife",
+      "husband": "Husband",
+      "son": "Son",
+      "daughter": "Daughter",
+      "grandfather": "Grandfather",
+      "grandmother": "Grandmother",
+      "other": "Other"
+    },
+    "categories": {
+      "title": "Categories",
+      "farmer": "Farmer",
+      "student": "Student",
+      "widow": "Widow",
+      "disability": "Disability",
+      "minority": "Minority",
+      "bpl": "BPL",
+      "women": "Women",
+      "senior": "Senior"
+    },
+    "documents": {
+      "title": "Documents",
+      "aadhaar": "Aadhaar",
+      "pan": "PAN Card",
+      "rationCard": "Ration Card",
+      "bankAccount": "Bank Account",
+      "disabilityCertificate": "Disability Certificate",
+      "incomeCertificate": "Income Certificate",
+      "farmerId": "Farmer ID"
+    },
+    "stats": {
+      "totalMembers": "Total Members",
+      "totalIncome": "Total Income",
+      "welfareScore": "Welfare Score",
+      "documentsComplete": "Documents Complete",
+      "eligibleCategories": "Eligible Categories"
+    }
+  },
+  "missed": {
+    "title": "Missed Opportunities",
+    "subtitle": "Discover benefits you may have missed and opportunities to secure them",
+    "totalMissed": "Total Missed",
+    "fixable": "fixable",
+    "filterBy": "Filter by",
+    "noMissed": "No Missed Opportunities",
+    "noMissedDescription": "Great! You're on track with all your eligible schemes.",
+    "allCaughtUp": "You're all caught up!",
+    "howToFix": "How to Fix",
+    "applyNow": "Apply Now",
+    "aiSuggestions": "AI Suggestions",
+    "aiSuggestionsDescription": "Top 10 recommended actions based on your profile",
+    "types": {
+      "all": "All",
+      "expired": "Expired",
+      "incomeMismatch": "Income Mismatch",
+      "ageMismatch": "Age Mismatch",
+      "categoryMismatch": "Category Mismatch",
+      "missingDocuments": "Missing Documents",
+      "upcoming": "Upcoming",
+      "unclaimed": "Unclaimed"
+    },
+    "priority": {
+      "all": "All",
+      "high": "High Priority",
+      "medium": "Medium",
+      "low": "Low"
+    }
+  },
   "common": {
     "search": "Search",
     "filter": "Filter",
@@ -131,6 +243,7 @@
     "error": "Something went wrong",
     "retry": "Retry",
     "save": "Save",
+    "saving": "Saving...",
     "cancel": "Cancel",
     "delete": "Delete",
     "edit": "Edit",
@@ -140,14 +253,5 @@
     "success": "Success",
     "warning": "Warning",
     "info": "Info"
-  },
-  "theme": {
-    "light": "Light",
-    "dark": "Dark",
-    "system": "System"
-  },
-  "language": {
-    "english": "English",
-    "hindi": "Hindi"
   }
 }
